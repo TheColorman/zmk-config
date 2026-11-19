@@ -91,6 +91,19 @@
             peripheral = true;
           };
         };
+        totem.parts = {
+          left = {
+            board = "xiao_ble//zmk";
+            shield = "totem_left";
+            central = true;
+            studio = true;
+          };
+          right = {
+            board = "xiao_ble//zmk";
+            shield = "totem_right";
+            peripheral = true;
+          };
+        };
       };
 
       mkFirmware =
