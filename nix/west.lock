@@ -420,9 +420,9 @@
     {
       "name": "zephyr",
       "url": "https://github.com/zmkfirmware/zephyr",
-      "revision": "9df4b12b5af3438a8b9d7a33780dc3b3b2f516c1",
+      "revision": "10ba6d0cb38bc3d258775d27982f707599320085",
       "path": "zephyr",
-      "hash": "sha256-+ZnyPQnYQKKXZvg94fmjLSh1Dkl1PmUGkhI4ISvae+U=",
+      "hash": "sha256-qXKUxYWpUAHh+pMuoqe+0moHN+KIvc4s/fRw/iPQfVs=",
       "submodules": false
     },
     {
@@ -436,9 +436,9 @@
     {
       "name": "zmk",
       "url": "https://github.com/zmkfirmware/zmk",
-      "revision": "83bc82dbfdcda4ef392461202534a7cc337ca055",
+      "revision": "4de313367288aad5aeaa1243890e40dc813f7008",
       "path": "zmk",
-      "hash": "sha256-mWOCdJYLTIY59GZmPDnbfiaiSsOhSDFhWZbnVqq+3m0=",
+      "hash": "sha256-1TRtjif33NwRyIO68ZJj4KbmkPGmlC+Y4qhiH+ERgTk=",
       "submodules": false
     },
     {
