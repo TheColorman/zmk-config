@@ -498,5 +498,12 @@
                                           &kp ESC       &kp SPACE        &kp F    &kp RET  &kp BSPC  &kp DEL
             >;
         };
+
+        extra_1 { status = "reserved"; };
+        extra_2 { status = "reserved"; };
+        extra_3 { status = "reserved"; };
+        extra_4 { status = "reserved"; };
+        extra_5 { status = "reserved"; };
+        extra_6 { status = "reserved"; };
     };
 };
