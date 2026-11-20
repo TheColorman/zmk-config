@@ -31,6 +31,13 @@
             shield = "totem_left";
             central = true;
             studio = true;
+
+            flags = {
+              CONFIG_ZMK_POINTING = true;
+              CONFIG_ZMK_BATTERY_REPORTING = true;
+              CONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING = true;
+              CONFIG_ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY = true;
+            };
           };
           right = {
             board = "xiao_ble//zmk";
