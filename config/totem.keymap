@@ -432,8 +432,8 @@
         nav_layer {
             display-name = "NAV";
             bindings = <
-        &td_boot  &none     &none      &none      &none    &kp K_REDO  &kp K_PASTE  &kp K_COPY  &kp K_CUT  &kp K_UNDO
-        &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none    &caps_word  &kp LEFT     &kp DOWN    &kp UP     &kp RIGHT
+        &td_boot  &none     &none      &none      &none    &kp K_REDO  &kp K_PASTE  &kp UP      &kp K_CUT  &kp K_UNDO
+        &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none    &caps_word  &kp LEFT     &kp DOWN    &kp RIGHT  &kp K_COPY
 &trans  &none     &none     &none      &none      &none    &kp INS     &kp HOME     &kp PG_DN   &kp PG_UP  &kp END     &trans
                             &none      &trans     &none    &kp RET     &kp BSPC     &kp DEL
             >;
@@ -442,9 +442,9 @@
         mouse_layer {
             display-name = "MOUSE";
             bindings = <
-        &td_boot  &none     &none      &none      &none    &kp K_REDO  &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp K_UNDO
-        &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none    &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
-&trans  &none     &none     &none      &none      &none    &none       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
+        &td_boot  &none     &none      &none      &none    &kp K_REDO  &kp K_PASTE     &mmv MOVE_UP    &kp K_CUT        &kp K_UNDO
+        &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &none    &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp K_COPY
+&trans  &none     &none     &none      &none      &none    &none       &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP     &msc SCRL_RIGHT  &trans
                             &none      &none      &trans   &mkp RCLK   &mkp LCLK       &mkp MCLK
             >;
         };
