@@ -1,4 +1,13 @@
-# Keymaps
+# Colorman ZMK config
+
+This repo is based on
+[Charly Delay's zmk config](https://github.com/0xcharly/zmk-config), with the
+Nix plumbing designed by them. The keymap of the TOTEM shield is based on
+[Drake Axelrod's Miryoku TOTEM layout](https://github.com/drakeaxelrod/totem).
+
+It's been modified, most notably by incorporating the
+[Graphite](https://github.com/rdavison/graphite-layout) keyboard layout designed
+by Richard Davison.
 
 ## Build
 
@@ -28,12 +37,12 @@ nix run .#flash.<keyboard> -- <part>...
 
 ## Update dependencies
 
-West dependencies are pinned in `nix/west.lock`. After editing
-`config/west.yml` (or to pick up new commits on the tracked branches):
+West dependencies are pinned in `nix/west.lock`. After editing `config/west.yml`
+(or to pick up new commits on the tracked branches):
 
 ```sh
 nix run .#update
 ```
 
-then commit `config/west.yml` and `nix/west.lock` together. A stale lock
-fails the build at evaluation time with a message pointing back here.
+then commit `config/west.yml` and `nix/west.lock` together. A stale lock fails
+the build at evaluation time with a message pointing back here.
